@@ -1,0 +1,1 @@
+select * from {{ source('ebay', 'ebay_items') }}

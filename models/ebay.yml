@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: ebay
+    database: project_database_rqy4  
+    schema: public  
+    tables:
+      - name: ebay_items
